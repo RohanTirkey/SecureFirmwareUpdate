@@ -1,0 +1,78 @@
+.quizRecord {
+  width: 90%;
+  margin: auto;
+  z-index: 4;
+  /* padding: 2rem; */
+  margin-top: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: white;
+  /* border: 2px solid black; */
+  
+}
+
+.quizRecord>.heading {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  text-decoration: underline;
+  padding-bottom: 30px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.quizRecord>table {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid forestgreen;
+  width: 60vw;
+  min-width: 500px;
+  /* height: 200px; */
+}
+
+.quizRecord>table>tr>th {
+  border-bottom: 1px solid forestgreen;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.quizRecord>table>tr>td {
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  /* border-bottom: 1px solid white; */
+}
+
+.btn {
+  color: black;
+}
+
+.SearchPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  height: 50px;
+  background-color: rgb(37, 101, 133);
+}
+
+.SearchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  font-size: 18px;
+  border: 2px solid rgb(29, 221, 231);
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  margin: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.SearchInput:focus {
+  border-color: rgb(5, 231, 247);
+}

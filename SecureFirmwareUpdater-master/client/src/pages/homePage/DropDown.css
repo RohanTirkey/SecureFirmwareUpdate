@@ -1,0 +1,44 @@
+/* Button styles */
+.searchbox {
+margin-top: 5rem;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+span {
+    color: #3e8e41;
+}
+
+input {
+    margin-top: 0.75rem;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  button:hover {
+    background-color: #bdf0d2;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }

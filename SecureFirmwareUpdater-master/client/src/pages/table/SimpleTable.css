@@ -1,0 +1,112 @@
+.quizRecord {
+  width: 75%;
+  /* display: flex;
+    justify-content: center; */
+  margin: auto;
+  z-index: 4;
+  /* padding: 2rem; */
+  margin-top: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+.quizRecord> .head{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  padding-bottom: 10px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color:black;
+}
+
+.quizRecord > .para{
+  font-size: x-large;
+  padding-bottom: 40px;
+  color:black;
+}
+
+
+.btn {
+  color: black;
+}
+
+.downloadSearch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #1f2e57;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+
+}
+
+.downloadSearchInput {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px; 
+  font-size: 18px; 
+  border: 2px solid #1f2e57;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box; 
+  margin: 10px; 
+  color: rgb(5, 5, 5);
+}
+
+.downloadSearchInput:focus {
+  border-color: #1f2e57;
+}
+
+
+.loader{
+  margin-top: 140px;
+}
+
+ .data{
+  width: 90%;
+  margin: auto;
+  color: black;
+}
+
+.main{
+  /* border: 2px solid blue; */
+  background-color: rgba(84, 137, 152, 0.9);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  border: 2px solid blue;
+}
+
+ .main >.f1{
+  font-size: x-large;
+}
+
+ .main >.f2{
+  font-size: large;
+}
+
+ .main >.f2:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  /* color: white; */
+}
+
+.app-expand{
+  display: block;
+  list-style: none;
+  background-color: rgb(2, 64, 151);
+  font-size: larger;
+  padding: 10px;
+}
+
+.f3{
+  display: none;
+}

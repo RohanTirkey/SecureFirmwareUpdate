@@ -1,0 +1,77 @@
+input[type="text"],
+input[type="email"]
+{
+    height: 30px;
+}
+
+.registerBtn {
+    cursor: pointer;
+    font-size: 15px;
+    border: 3px solid #1f2e57;
+    background-color: rgba(84, 137, 152, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size:x-large;
+    margin-top: 35px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.registerBtn:hover {
+    background: linear-gradient(to right, #1f2e57 0%, #467c9b 100%);
+    /* color:#1d242c ; */
+    cursor: pointer;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    /* background-color: black; */
+    /* border: 2px solid #06fece; */
+    /* margin-top:220px; */
+    width: 30vw;
+    color: rgb(3, 3, 3);
+    padding: 2rem 4rem;
+    line-height: 40px;
+    font-size: large;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(84, 137, 152, 0.5);
+    /* background-color: #88c0bf; */
+}
+
+.register-form> .para{
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.list-container {
+    display: flex;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
+
+.signup{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hardhat-javascript-starter",
+  "scripts": {
+    "build": "npx thirdweb@latest detect",
+    "deploy": "npx thirdweb@latest deploy",
+    "release": "npx thirdweb@latest release"
+  },
+  "devDependencies": {
+    "hardhat": "^2.16.0"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3",
+    "dotenv": "^16.0.3"
+  },
+  "overrides": {
+    "@nomiclabs/hardhat-waffle": {
+      "@nomiclabs/hardhat-ethers": "$@nomiclabs/hardhat-ethers"
+    }
+  }
+}
